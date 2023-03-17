@@ -14,7 +14,10 @@ Flight delays are a major issue for passengers, airlines, and states, causing si
 # How the Code Works
 # How the Code Works
 **Step 1: Import the Required Modules**
-[`Modules`](./Cleaning_flightdelay_sbhusal.ipynb). 
+[`Modules`](./modules.ipynb). 
+**Step 2: Data Preprocessing ['Cleaning data](./Cleaning_flightdelay_sbhusal.ipynb)
+Clean and preprocess the collected data by removing irrelevant features, handling missing data, and transforming categorical variables into numerical values.
+
 
 
 
