@@ -12,7 +12,7 @@ This repository contains a Python script and images for a two-part machine learn
 Flight delays are a major issue for passengers, airlines, and states, causing significant financial losses. To address this problem, this project aims to create a prediction system that can minimize flight delays using machine learning. The system consists of two parts: a classifier that predicts if the delay of flight is acceptable or not, and a regression model that predicts the amount of time the flight will be delayed upon arrival.
 
 # How the Code Works
-Step 1: ['Import the Required Modules'](./modules.ipynb). 
+Step 1: [Import the Required Modules](./modules.ipynb). 
 
 Step 2: [Data Preprocessing](./Cleaning_flightdelay_sbhusal.ipynb)
 
@@ -34,7 +34,7 @@ On the other hand, all three regression models (Linear Regression, Linear SVR, a
 
 # Future Work
 ## Integration and Deployment
-Integrate the trained classifier and regression models into a unified system that can predict the arrival delay of a flight in real-time. The system will be deployed on a cloud platform or a web server for easy access and scalability.
+Integrate the trained classifier and regression models into a unified system that can predict the arrival delay of a flight in real-time. The system should deploy on a cloud platform or a web server for easy access and scalability.
 
 The main goal of this project is to provide aviation authorities with an organized prediction system that can minimize flight delays, resulting in improved convenience for passengers and reduced financial losses for airlines and countries.
 
