@@ -26,17 +26,31 @@ We have trained 5 classification models to predict if the delay of flight is acc
 Step 4: ['Regression Model'](./Flight_Delay_Prediction_complete.ipynb)
 We have trained three regression models to predict the amount of time the flight will be delayed upon arrival.
 
-##Result
+## Result
 The flight and airport data were merged and prepared for training a two-stage machine learning model that predicts flight arrival delays. Due to the vast amount of data and limited computational resources, many features had to be excluded. Out of five different classifier models, the logistic regression and Gradient Booster Classifier performed the best with an F1 score of 0.62 and a recall of 0.62 for delayed flights.
 
 On the other hand, all three regression models (Linear Regression, Linear SVR, and Decision Tree) produced an RMSE of approximately 2.5 minutes with an R2 score of 0.72. In conclusion, the flight delay prediction was satisfactory and the machine learning model demonstrated good performance than random guess.
 
 
-##Future Work
+# Future Work
 ## Integration and Deployment
 Integrate the trained classifier and regression models into a unified system that can predict the arrival delay of a flight in real-time. The system will be deployed on a cloud platform or a web server for easy access and scalability.
 
 The main goal of this project is to provide aviation authorities with an organized prediction system that can minimize flight delays, resulting in improved convenience for passengers and reduced financial losses for airlines and countries.
+
+# Installation Requirements
+## Environment
+For convenience, it is advised to use a Linux or macOS development environment, although it has not been verified on Windows. The Anaconda package manager and Python 3 (version >= 3.6.4 recommended) should be utilized for package management. It is also suggested to run the code on Jupyter Notebook or Google Colab.
+
+# Dependencies
+When using Google Colab and Anaconda, there is no requirement to install:
+
+- matplotlib, 
+- scikit-learn, 
+- numpy
+- pandas
+ 
+since they are already included in these platforms. However, library like 'us' need to install using pip
 
 
 
