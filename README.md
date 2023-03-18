@@ -28,9 +28,9 @@ Step 4: [Regression Model](./regression.ipynb)
 We have trained three regression models (Linear Regression, Linear SVR, and Decision tree) to predict the amount of time the flight will be delayed upon arrival.
 
 ## Result
-The flight and airport data were merged, and prepared for training a two-stage machine learning model that predicts flight arrival delays. Due to the vast amount of data and limited computational resources, many features had to be excluded. Out of five different classifier models, the logistic regression and Gradient Booster Classifier performed the best with an F1 score of 0.62 and a recall of 0.62 for delayed flights. Also, an AUC score of 0.67 suggests that the models evaluated here are performing better than random guessing. Overall, the model's performance is decent but could potentially be improved, especially for the unacceptable_delay class. 
+The flight and airport data were merged, and prepared for training a two-stage machine learning model that predicts flight arrival delays. Due to the vast amount of data and limited computational resources, many features had to be excluded. Out of five different classifier models, the logistic regression and Gradient Booster Classifier performed the best with an F1 score of 0.62 and a recall of 0.62 for delayed flights. Also, an AUC score of 0.67 suggests that the models evaluated here are performing better than random guessing. Overall, the classifier model's performance is decent but could potentially be improved, especially for the unacceptable_delay class. 
 
-On the other hand, all three regression models (Linear Regression, Linear SVR, and Decision Tree) produced an RMSE of approximately 2.5 minutes with an R2 score of 0.72. In conclusion, the flight delay prediction was satisfactory and the machine learning model demonstrated good performance than random guess.
+On the other hand, all three regression models (Linear Regression, Linear SVR, and Decision Tree) produced an RMSE of approximately 2.5 minutes with an R2 score of 0.72. In conclusion, the flight delay prediction was satisfactory and the machine learning model demonstrated good performance. 
 
 
 # Future Work
