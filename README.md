@@ -19,15 +19,16 @@ Step 2: [Data Preprocessing](./Cleaning_flightdelay_sbhusal.ipynb)
 Clean and preprocess the collected data by removing irrelevant features, handling missing data,
 and transforming categorical variables into numerical values.
 
-Step 3: ['Classifying flights as acceptable delay or not'](./classifier_many_models_jan_mf.ipynb)
+Step 3: [Classifying flights as acceptable delay or not](./classifier_many_models_jan_mf.ipynb)
 
 We have trained 5 classification models to predict if the delay of flight is acceptable or not.
 
 Step 4: ['Regression Model'](./Flight_Delay_Prediction_complete.ipynb)
+
 We have trained three regression models to predict the amount of time the flight will be delayed upon arrival.
 
 ## Result
-The flight and airport data were merged and prepared for training a two-stage machine learning model that predicts flight arrival delays. Due to the vast amount of data and limited computational resources, many features had to be excluded. Out of five different classifier models, the logistic regression and Gradient Booster Classifier performed the best with an F1 score of 0.62 and a recall of 0.62 for delayed flights.
+The flight and airport data were merged and prepared for training a two-stage machine learning model that predicts flight arrival delays. Due to the vast amount of data and limited computational resources, many features had to be excluded. Out of five different classifier models, the logistic regression and Gradient Booster Classifier performed the best with an F1 score of 0.62 and a recall of 0.62 for delayed flights. Also, an AUC score of 0.67 suggests that the models evaluated here are performing better than random guessing. Overall, the model's performance is decent but could potentially be improved, especially for the unacceptable_delay class. 
 
 On the other hand, all three regression models (Linear Regression, Linear SVR, and Decision Tree) produced an RMSE of approximately 2.5 minutes with an R2 score of 0.72. In conclusion, the flight delay prediction was satisfactory and the machine learning model demonstrated good performance than random guess.
 
